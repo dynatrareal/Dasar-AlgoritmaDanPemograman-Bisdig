@@ -1,0 +1,170 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNac+iK2qO8+YY8nM7PDs+h",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dynatrareal/Dasar-AlgoritmaDanPemograman-Bisdig/blob/main/Studi%20Kasus\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4E81HbNaCvB0",
+        "outputId": "a40cc393-6564-45c6-bef4-ddf9913e1c3d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan angka untuk menghitung faktorial: 6\n",
+            "Faktorial dari 6 adalah 720\n"
+          ]
+        }
+      ],
+      "source": [
+        "def factorial(n):\n",
+        "    \"\"\"\n",
+        "    Fungsi rekursif untuk menghitung faktorial dari suatu bilangan n.\n",
+        "    Faktorial n (n!) adalah hasil perkalian n × (n-1) × ... × 1.\n",
+        "    \"\"\"\n",
+        "    if n == 0 or n == 1:\n",
+        "        return 1\n",
+        "    else:\n",
+        "        return n * factorial(n - 1)\n",
+        "\n",
+        "def main():\n",
+        "    try:\n",
+        "        angka = int(input(\"Masukkan angka untuk menghitung faktorial: \"))\n",
+        "        if angka < 0:\n",
+        "            print(\"Faktorial tidak terdefinisi untuk angka negatif.\")\n",
+        "        else:\n",
+        "            hasil = factorial(angka)\n",
+        "            print(f\"Faktorial dari {angka} adalah {hasil}\")\n",
+        "    except ValueError:\n",
+        "        print(\"Input tidak valid. Harap masukkan bilangan bulat.\")\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "    main()\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def main():\n",
+        "    nilai_siswa = []\n",
+        "\n",
+        "    print(\"Masukkan nilai 5 siswa:\")\n",
+        "    for i in range(5):\n",
+        "        while True:\n",
+        "            try:\n",
+        "                nilai = float(input(f\"Nilai siswa ke-{i+1}: \"))\n",
+        "                if nilai < 0 or nilai > 100:\n",
+        "                    print(\"Nilai harus antara 0 sampai 100. Coba lagi.\")\n",
+        "                    continue\n",
+        "                nilai_siswa.append(nilai)\n",
+        "                break\n",
+        "            except ValueError:\n",
+        "                print(\"Input tidak valid. Masukkan angka.\")\n",
+        "\n",
+        "    nilai_tertinggi = max(nilai_siswa)\n",
+        "    siswa_tertinggi = nilai_siswa.index(nilai_tertinggi) + 1\n",
+        "\n",
+        "    print(f\"Nilai tertinggi adalah {nilai_tertinggi} yang diperoleh siswa ke-{siswa_tertinggi}.\")\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "    main()\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7trDXvcxDCH3",
+        "outputId": "ca957e64-3a6c-4c45-ab36-971b0839c03f"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan nilai 5 siswa:\n",
+            "Nilai siswa ke-1: 99\n",
+            "Nilai siswa ke-2: 88\n",
+            "Nilai siswa ke-3: 77\n",
+            "Nilai siswa ke-4: 66\n",
+            "Nilai siswa ke-5: 55\n",
+            "Nilai tertinggi adalah 99.0 yang diperoleh siswa ke-1.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def main():\n",
+        "    try:\n",
+        "        total_belanja = float(input(\"Masukkan total belanja: Rp\"))\n",
+        "\n",
+        "        if total_belanja > 500000:\n",
+        "            diskon = total_belanja * 0.10\n",
+        "            total_bayar = total_belanja - diskon\n",
+        "            print(f\"Anda mendapatkan diskon 10%.\")\n",
+        "            print(f\"Total bayar setelah diskon: Rp{total_bayar:.2f}\")\n",
+        "        else:\n",
+        "            print(f\"Total bayar: Rp{total_belanja:.2f}\")\n",
+        "\n",
+        "    except ValueError:\n",
+        "        print(\"Input tidak valid. Harap masukkan angka.\")\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "    main()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "32sYkd32DWBV",
+        "outputId": "8e970f3e-cf0f-4543-948a-d035ef432844"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan total belanja: Rp599999\n",
+            "Anda mendapatkan diskon 10%.\n",
+            "Total bayar setelah diskon: Rp539999.10\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
