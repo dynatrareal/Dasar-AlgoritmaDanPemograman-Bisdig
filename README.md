@@ -155,4 +155,28 @@ Total harga yang harus dibayar: Rp 4,100,000.00
 - Program ini menggunakan pemisah ribuan dan dua angka desimal untuk menampilkan total harga.
 
 STUDI KASUS KELIMA:
+# Program Menentukan Status Kelulusan Siswa
 
+## Deskripsi
+Program ini dirancang untuk membantu siswa mengetahui apakah nilai ujiannya memenuhi syarat lulus berdasarkan rata-rata nilai dari 3 mata pelajaran. Jika rata-rata nilai ≥ 75, siswa dinyatakan lulus; jika tidak, siswa dinyatakan tidak lulus.
+
+## Cara Kerja Program
+1. **Memulai Program**: Program dimulai dengan menampilkan pesan yang menjelaskan fungsinya.
+2. **Input Nilai**: Pengguna diminta untuk memasukkan nilai dari 3 mata pelajaran. Nilai yang dimasukkan harus berupa angka.
+3. **Validasi Input**: Program menggunakan blok `try-except` untuk memastikan bahwa input yang dimasukkan adalah angka. Jika pengguna memasukkan nilai yang bukan angka, program akan menampilkan pesan kesalahan dan berhenti.
+4. **Menghitung Rata-rata**: Program menjumlahkan ketiga nilai yang dimasukkan dan membaginya dengan 3 untuk mendapatkan rata-rata.
+5. **Menampilkan Rata-rata**: Program menampilkan rata-rata nilai dengan format dua angka desimal.
+6. **Menentukan Status Kelulusan**: Program membandingkan rata-rata nilai dengan angka 75. Jika rata-rata lebih besar atau sama dengan 75, program akan menampilkan "Status: Lulus". Jika tidak, program akan menampilkan "Status: Tidak Lulus".
+
+## Contoh Penggunaan
+Jika siswa memasukkan nilai sebagai berikut:
+- Mata Pelajaran 1: 80
+- Mata Pelajaran 2: 75
+- Mata Pelajaran 3: 70
+
+Maka output yang dihasilkan adalah:
+Rata-rata nilai: 75.00 Status: Lulus
+
+## Catatan
+- Pastikan untuk memasukkan nilai dalam format angka yang benar.
+- Program ini menggunakan dua angka desimal untuk menampilkan rata-rata nilai.
