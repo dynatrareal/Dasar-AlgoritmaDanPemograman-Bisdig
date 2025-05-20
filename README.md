@@ -1,4 +1,4 @@
-PENJELASAN STUDI KASUS: FUNGSI FAKTORIAL REKURSIF
+PENJELASAN STUDI KASUS:
 
 # Fungsi Faktorial Rekursif
 
@@ -67,7 +67,8 @@ Jika input tidak valid, program akan memberikan pesan kesalahan dan meminta inpu
 ## Kesimpulan
 Dengan menggunakan perulangan dan array, program ini dapat mengumpulkan, menyimpan, dan memproses data nilai siswa dengan efisien. Penggunaan kedua konsep ini sangat penting dalam pemrograman untuk menangani data secara efektif dan membuat program lebih terstruktur serta mudah dikelola.
 
-PENJELASAN STUDI KASUS: SISTEM PEMBERIAN DISKON DI E-COMMERCE
+PENJELASAN STUDI KASUS:
+
 # Sistem Diskon E-Commerce
 
 ## Deskripsi
@@ -119,7 +120,8 @@ Jika input tidak valid, program akan memberikan pesan kesalahan dan meminta inpu
 ## Kesimpulan
 Dengan menggunakan struktur kontrol percabangan, program ini dapat menentukan dengan jelas apakah pelanggan berhak mendapatkan diskon dan menghitung total bayar yang sesuai. Ini membuat logika program menjadi terstruktur dan memberikan pengalaman pengguna yang baik dengan memberikan informasi yang tepat berdasarkan input yang diberikan.
 
-STUDI KASUS KEEMPAT:
+PENJELASAN STUDI KASUS: 
+
 # Program Menghitung Total Harga Pembelian 3 Barang
 
 ## Deskripsi
@@ -155,7 +157,8 @@ Total harga yang harus dibayar: Rp 4,100,000.00
 - Pastikan untuk memasukkan harga dalam format angka yang benar.
 - Program ini menggunakan pemisah ribuan dan dua angka desimal untuk menampilkan total harga.
 
-STUDI KASUS KELIMA:
+PENJELASAN STUDI KASUS: 
+
 # Program Menentukan Status Kelulusan Siswa
 
 ## Deskripsi
