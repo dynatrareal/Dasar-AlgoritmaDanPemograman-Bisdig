@@ -31,7 +31,7 @@ Masukkan angka untuk menghitung faktorial: 6 Faktorial dari 6 adalah 720
 
 Jika Anda memasukkan angka negatif atau bukan bilangan bulat, program akan memberikan pesan peringatan yang sesuai.
 
-PENJELASAN STUDI KASUS KASUS: PENJELASAN PENGGUNAAN PERULANGAN DAN ARRAY DALAM SISTEM INPUT NILAI SISWA DAN MENCARI NILAI TERTINGGI
+PENJELASAN STUDI KASUS KASUS: 
 
 # Sistem Input Nilai Siswa
 
