@@ -1,4 +1,5 @@
-STUDI KASUS PERTAMA 
+PENJELASAN STUDI KASUS: FUNGSI DAN FAKTORIAL DALAM MENGITUNG FAKTORIAL.
+
 # Fungsi Faktorial Rekursif
 
 ## Deskripsi
@@ -30,7 +31,7 @@ Masukkan angka untuk menghitung faktorial: 6 Faktorial dari 6 adalah 720
 
 Jika Anda memasukkan angka negatif atau bukan bilangan bulat, program akan memberikan pesan peringatan yang sesuai.
 
-STUDI KASUS KEDUA
+PENJELASAN STUDI KASUS KASUS: 
 # Sistem Input Nilai Siswa
 
 ## Deskripsi
