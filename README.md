@@ -117,3 +117,42 @@ Jika input tidak valid, program akan memberikan pesan kesalahan dan meminta inpu
 
 ## Kesimpulan
 Dengan menggunakan struktur kontrol percabangan, program ini dapat menentukan dengan jelas apakah pelanggan berhak mendapatkan diskon dan menghitung total bayar yang sesuai. Ini membuat logika program menjadi terstruktur dan memberikan pengalaman pengguna yang baik dengan memberikan informasi yang tepat berdasarkan input yang diberikan.
+
+STUDI KASUS KEEMPAT:
+# Program Menghitung Total Harga Pembelian 3 Barang
+
+## Deskripsi
+Program ini dirancang untuk membantu kasir toko dalam menghitung total harga pembelian dari 3 barang. Pengguna akan diminta untuk memasukkan harga masing-masing barang, dan program akan menghitung serta menampilkan total harga yang harus dibayar.
+
+## Langkah-langkah Algoritma
+1. **Mulai Program**: Program dimulai dan siap untuk dijalankan.
+2. **Tampilkan Judul Program**: Menampilkan pesan yang menjelaskan fungsi program.
+3. **Input Harga Barang**:
+   - Meminta pengguna untuk memasukkan harga barang 1.
+   - Meminta pengguna untuk memasukkan harga barang 2.
+   - Meminta pengguna untuk memasukkan harga barang 3.
+4. **Validasi Input**: Memastikan bahwa input yang dimasukkan adalah angka. Jika tidak, program akan menampilkan pesan kesalahan.
+5. **Hitung Total Harga**: Menjumlahkan harga barang untuk mendapatkan total.
+6. **Tampilkan Total Harga**: Menampilkan total harga dengan format yang rapi.
+7. **Selesai**: Program berakhir setelah menampilkan total harga.
+
+## Cara Menggunakan
+1. Jalankan program menggunakan Python.
+2. Masukkan harga untuk 3 barang ketika diminta.
+3. Program akan menghitung dan menampilkan total harga yang harus dibayar.
+
+## Contoh
+Jika pengguna memasukkan harga:
+- Barang 1: Rp 100.000
+- Barang 2: Rp 2.500.000
+- Barang 3: Rp 1.500.000
+
+Maka output yang dihasilkan adalah:
+Total harga yang harus dibayar: Rp 4,100,000.00
+
+## Catatan
+- Pastikan untuk memasukkan harga dalam format angka yang benar.
+- Program ini menggunakan pemisah ribuan dan dua angka desimal untuk menampilkan total harga.
+
+STUDI KASUS KELIMA:
+
