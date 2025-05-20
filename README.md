@@ -31,7 +31,8 @@ Masukkan angka untuk menghitung faktorial: 6 Faktorial dari 6 adalah 720
 
 Jika Anda memasukkan angka negatif atau bukan bilangan bulat, program akan memberikan pesan peringatan yang sesuai.
 
-PENJELASAN STUDI KASUS KASUS: 
+PENJELASAN STUDI KASUS KASUS: PENJELASAN PENGGUNAAN PERULANGAN DAN ARRAY DALAM SISTEM INPUT NILAI SISWA DAN MENCARI NILAI TERTINGGI
+
 # Sistem Input Nilai Siswa
 
 ## Deskripsi
@@ -66,7 +67,7 @@ Jika input tidak valid, program akan memberikan pesan kesalahan dan meminta inpu
 ## Kesimpulan
 Dengan menggunakan perulangan dan array, program ini dapat mengumpulkan, menyimpan, dan memproses data nilai siswa dengan efisien. Penggunaan kedua konsep ini sangat penting dalam pemrograman untuk menangani data secara efektif dan membuat program lebih terstruktur serta mudah dikelola.
 
-STUDI KASUS KETIGA 
+PENJELASAN STUDI KASUS: SISTEM PEMBERIAN DISKON DI E-COMMERCE
 # Sistem Diskon E-Commerce
 
 ## Deskripsi
